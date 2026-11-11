@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        Random rand = new Random();
+        static Random rand = new Random();
         public static int readers = 0;
         public static int writers = 0;
         public static bool checking = false;
@@ -83,7 +83,7 @@
                 else if (r.CanRead())
                 {
                     r.read = 0;
-                    w.readTime = rand.Next(2,8);
+                    r.readTime = rand.Next(2,8);
                     r.reading = true;
                     fileLastUserWriter = false;
                     fileOpen = true;
@@ -117,7 +117,7 @@
                         }
                         if (!others) fileOpen = false;
                     }
-                    else r.read++;
+                    else w.write++;
                 }
                 else if (w.CanWrite() && timeOpen == 0)
                 {
