@@ -13,3 +13,18 @@ C:\Users\joshg\source\repos\Coding Problems\ReadersWriters\obj\Debug\net10.0\ref
 C:\Users\joshg\source\repos\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.pdb
 C:\Users\joshg\source\repos\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.genruntimeconfig.cache
 C:\Users\joshg\source\repos\Coding Problems\ReadersWriters\obj\Debug\net10.0\ref\ReadersWriters.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\bin\Debug\net10.0\ReadersWriters.exe
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\bin\Debug\net10.0\ReadersWriters.deps.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\bin\Debug\net10.0\ReadersWriters.runtimeconfig.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\bin\Debug\net10.0\ReadersWriters.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\bin\Debug\net10.0\ReadersWriters.pdb
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.AssemblyInfoInputs.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.AssemblyInfo.cs
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.csproj.CoreCompileInputs.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.sourcelink.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\refint\ReadersWriters.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.pdb
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.genruntimeconfig.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ref\ReadersWriters.dll

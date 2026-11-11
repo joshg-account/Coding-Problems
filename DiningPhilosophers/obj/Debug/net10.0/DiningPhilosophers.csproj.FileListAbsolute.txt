@@ -28,3 +28,18 @@ C:\Users\joshg\source\repos\Coding Problems\DiningPhilosophers\obj\Debug\net10.0
 C:\Users\joshg\source\repos\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.pdb
 C:\Users\joshg\source\repos\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.genruntimeconfig.cache
 C:\Users\joshg\source\repos\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\ref\DiningPhilosophers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\bin\Debug\net10.0\DiningPhilosophers.exe
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\bin\Debug\net10.0\DiningPhilosophers.deps.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\bin\Debug\net10.0\DiningPhilosophers.runtimeconfig.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\bin\Debug\net10.0\DiningPhilosophers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\bin\Debug\net10.0\DiningPhilosophers.pdb
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.AssemblyInfoInputs.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.AssemblyInfo.cs
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.csproj.CoreCompileInputs.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.sourcelink.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\refint\DiningPhilosophers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.pdb
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.genruntimeconfig.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\ref\DiningPhilosophers.dll

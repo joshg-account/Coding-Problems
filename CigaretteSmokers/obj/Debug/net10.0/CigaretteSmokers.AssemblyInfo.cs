@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CigaretteSmokers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dacef62ad109ebadb3616829032a2640c326ff40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74d111c64b27290854a5267f7474c97f38f45b8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CigaretteSmokers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CigaretteSmokers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
