@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DiningPhilosophers/DiningPhilosophers.csproj" />
+  <Project Path="ReadersWriters/ReadersWriters.csproj" />
+</Solution>
