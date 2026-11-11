@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiningPhilosophers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b15bd01595f9169d6e8516f08111005bb5ee7884")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d255ec0816cc447f4300fcd485289dd0979a31d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiningPhilosophers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiningPhilosophers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

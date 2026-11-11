@@ -67,7 +67,7 @@
                         bool others = false;
                         foreach (Reader h in readersList)
                         {
-                            if (r.reading) others = true;
+                            if (h.reading) others = true;
                         }
                         if (!others) fileOpen = false;
                     }
@@ -113,7 +113,7 @@
                         bool others = false;
                         foreach (Writer h in writersList)
                         {
-                            if (w.writing) others = true;
+                            if (h.writing) others = true;
                         }
                         if (!others) fileOpen = false;
                     }

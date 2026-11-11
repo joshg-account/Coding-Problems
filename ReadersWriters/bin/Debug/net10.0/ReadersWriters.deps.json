@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "TheReaderWritersProblem/1.0.0": {
+      "ReadersWriters/1.0.0": {
         "runtime": {
-          "TheReaderWritersProblem.dll": {}
+          "ReadersWriters.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "TheReaderWritersProblem/1.0.0": {
+    "ReadersWriters/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

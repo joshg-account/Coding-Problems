@@ -1,6 +1,0 @@
-<Solution>
-  <Folder Name="/ReadersWriters/">
-    <Project Path="ReadersWriters/TheReaderWritersProblem.csproj" />
-  </Folder>
-  <Project Path="DiningPhilosophers/DiningPhilosophers.csproj" />
-</Solution>

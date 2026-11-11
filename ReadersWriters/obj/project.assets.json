@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshg\\source\\repos\\Coding Problems\\ReadersWriters\\TheReaderWritersProblem.csproj",
-      "projectName": "TheReaderWritersProblem",
-      "projectPath": "C:\\Users\\joshg\\source\\repos\\Coding Problems\\ReadersWriters\\TheReaderWritersProblem.csproj",
+      "projectUniqueName": "c:\\Users\\joshg\\source\\repos\\Coding Problems\\ReadersWriters\\ReadersWriters.csproj",
+      "projectName": "ReadersWriters",
+      "projectPath": "c:\\Users\\joshg\\source\\repos\\Coding Problems\\ReadersWriters\\ReadersWriters.csproj",
       "packagesPath": "C:\\Users\\joshg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshg\\source\\repos\\Coding Problems\\ReadersWriters\\obj\\",
+      "outputPath": "c:\\Users\\joshg\\source\\repos\\Coding Problems\\ReadersWriters\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
