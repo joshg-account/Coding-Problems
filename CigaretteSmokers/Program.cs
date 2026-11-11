@@ -1,4 +1,4 @@
-﻿namespace DiningPhilosophers
+﻿namespace CigaretteSmokers
 {
     internal class Program
     {
@@ -16,27 +16,28 @@
             waitingChairs = Convert.ToInt32(Console.ReadLine());
             Console.Write("How many customers can walk in? \n>> ");
             customersWalkIn = Convert.ToInt32(Console.ReadLine());
-            while (customersID + 1 < customersWalkIn)
+            while (customersID < customersWalkIn)
             {
                 Customer t = new Customer(customersID);
-                Console.WriteLine("Customer #" + customersID + " has entered the shop");
+                Console.WriteLine("Customer #" + (customersID + 1) + " has entered the shop");
                 if (chair == null)
                 {
                     lock (chairLock)
                     {
                         chair = t;
-                        Console.WriteLine("Customer #" + customersID + " has sat on the chair");
+                        threads.Add(new Thread(() => CustomerThinking(t)));
+                        Console.WriteLine("Customer #" + (customersID + 1) + " has sat on the chair");
                     }
                 }
                 else if (waiting.Count < waitingChairs)
                 {
                     waiting.Add(t);
                     threads.Add(new Thread(() => CustomerThinking(t)));
-                    Console.WriteLine("Customer #" + customersID + " is now waiting");
+                    Console.WriteLine("Customer #" + (customersID + 1) + " is now waiting");
                 }
                 else
                 {
-                    Console.WriteLine("Customer #" + customersID + " has left the shop");
+                    Console.WriteLine("Customer #" + (customersID + 1) + " has left the shop");
                     customersExited++;
                 }
                 customersID++;
@@ -45,12 +46,37 @@
         }
         static void CustomerThinking(Customer c)
         {
+            while (c.inShop)
+            {
+                if (c == chair)
+                {
+                    Thread.Sleep(1000);
+                    threads.Remove(Thread.CurrentThread);
+                    Console.WriteLine("Customer #" + (c.ID + 1) + " has finished and has left the shop");
+                    c.inShop = false;
+                    chair = null;
+                }
+                else
+                {
+                    if (chair == null)
+                    {
+                        lock (chairLock)
+                        {
+                            chair = c;
+                            waiting.Remove(c);
+                            Console.WriteLine("Customer #" + (c.ID + 1) + " has sat on the chair");
+                        }
+                    }
+                }
+            }
+            
             
         }
     }
     class Customer
     {
         public int ID;
+        public bool inShop = true;
         public Customer(int ID)
         {
             this.ID = ID;

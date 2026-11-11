@@ -43,3 +43,5 @@ C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\o
 C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.pdb
 C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPhilosophers.genruntimeconfig.cache
 C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\ref\DiningPhilosophers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\bin\Debug\net10.0\DiningPhilosophers.runtimeconfig.dev.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\DiningPhilosophers\obj\Debug\net10.0\DiningPh.6756C75D.Up2Date
