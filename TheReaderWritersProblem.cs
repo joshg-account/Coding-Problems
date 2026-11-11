@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        Random rand = new Random();
         public static int readers = 0;
         public static int writers = 0;
         public static bool checking = false;
@@ -55,11 +56,22 @@
             {
                 foreach (Reader l in readersList)
                 {
-                    if (l.read > 0) timeOpen = l.read;
+                    if (l.read > timeOpen) timeOpen = l.read;
                 }
                 if (r.reading)
                 {
-                    r.read++;
+                    if (r.read == r.readTime)
+                    {
+                        r.reading = false;
+                        r.readTime = 0;
+                        bool others = false;
+                        foreach (Reader h in readersList)
+                        {
+                            if (r.reading) others = true;
+                        }
+                        if (!others) fileOpen = false;
+                    }
+                    else r.read++;
                 }
                 else if (timeOpen < 5 && r.CanRead() && !fileLastUserWriter)
                 {
@@ -71,8 +83,10 @@
                 else if (r.CanRead())
                 {
                     r.read = 0;
+                    w.readTime = rand.Next(2,8);
                     r.reading = true;
                     fileLastUserWriter = false;
+                    fileOpen = true;
                     i++;
                     Console.WriteLine("Reader " + r.ID + " is reading!");
                 }
@@ -88,17 +102,30 @@
             {
                 foreach (Writer l in writersList)
                 {
-                    if (l.write > 0) timeOpen = l.write;
+                    if (l.write > timeOpen) timeOpen = l.write;
                 }
                 if (w.writing)
                 {
-                    w.write++;
+                    if (w.write == w.writeTime)
+                    {
+                        w.writing = false;
+                        w.writeTime = 0;
+                        bool others = false;
+                        foreach (Writer h in writersList)
+                        {
+                            if (w.writing) others = true;
+                        }
+                        if (!others) fileOpen = false;
+                    }
+                    else r.read++;
                 }
                 else if (w.CanWrite() && timeOpen == 0)
                 {
                     w.write = 0;
+                    w.writeTime = rand.Next(3,10);
                     w.writing = true;
                     fileLastUserWriter = true;
+                    fileOpen = true;
                     i++;
                     Console.WriteLine("Writer " + w.ID + " is writing!");
                 }
