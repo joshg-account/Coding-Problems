@@ -1,0 +1,19 @@
+﻿{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build ReadersWriters",
+            "command": "dotnet",
+            "type": "process",
+            "args": ["build", "${workspaceFolder}/ReadersWriters/ReadersWriters.csproj"],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build DiningPhilosophers",
+            "command": "dotnet",
+            "type": "process",
+            "args": ["build", "${workspaceFolder}/DiningPhilosophers/DiningPhilosophers.csproj"],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

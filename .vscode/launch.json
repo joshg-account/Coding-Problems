@@ -1,0 +1,27 @@
+﻿{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ReadersWriters",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build ReadersWriters",
+            "program": "${workspaceFolder}/ReadersWriters/bin/Debug/net10.0/ReadersWriters.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ReadersWriters",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "DiningPhilosophers",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build DiningPhilosophers",
+            "program": "${workspaceFolder}/DiningPhilosophers/bin/Debug/net10.0/DiningPhilosophers.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DiningPhilosophers",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}

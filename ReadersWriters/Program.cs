@@ -52,6 +52,8 @@
                 Thread.Sleep(300);
             }
             Console.WriteLine("The End");
+            Console.Write("Press Any Key To Exit.");
+            Console.ReadKey(); // prevents terminal from instantly closing
         }
         static void ThinkingReader(Reader r)
         {

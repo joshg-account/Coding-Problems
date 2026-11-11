@@ -37,7 +37,12 @@ namespace DiningPhilosophers
             }
             Console.WriteLine("food eaten by philosopher " + (ID + 1));
             Thread.Sleep(100);
-            if (!food) Console.WriteLine("All Philosphers are full");
+            if (!food) 
+            {
+                Console.WriteLine("All Philosphers are full");        
+                Console.Write("Press Any Key To Exit.");     
+                Console.ReadKey(); // prevents terminal from instantly closing
+            }
         }
         public static void Thinking(Philospoher p)
         {
