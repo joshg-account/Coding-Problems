@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="CigaretteSmokers/CigaretteSmokers.csproj" />
+  <Project Path="BarberShop/BarberShop.csproj" />
   <Project Path="DiningPhilosophers/DiningPhilosophers.csproj" />
   <Project Path="ReadersWriters/ReadersWriters.csproj" />
 </Solution>

@@ -1,8 +1,13 @@
-﻿namespace CigaretteSmokers
+﻿using System.Reflection.Metadata;
+
+namespace BarberShop
 {
     internal class Program
     {
         static readonly object chairLock = new();
+        static public Random rand = new Random();
+        static public bool BarberAwake;
+        static public float timeSpeed = 1f;
         static public int waitingChairs;
         static public int customersWalkIn;
         static public int customersID = 0;
@@ -16,23 +21,32 @@
             waitingChairs = Convert.ToInt32(Console.ReadLine());
             Console.Write("How many customers can walk in? \n>> ");
             customersWalkIn = Convert.ToInt32(Console.ReadLine());
+            Thread barb = new Thread(BarberThinking);
+            threads.Add(barb);
+            barb.Start();
             while (customersID < customersWalkIn)
             {
                 Customer t = new Customer(customersID);
+                Thread th = new Thread(() => CustomerThinking(t));
                 Console.WriteLine("Customer #" + (customersID + 1) + " has entered the shop");
                 if (chair == null)
                 {
                     lock (chairLock)
                     {
+                        if (BarberAwake == false)
+                        {
+                            Console.WriteLine("Customer #" + (customersID + 1) + " has woken the barber");
+                            BarberAwake = true;
+                        }
                         chair = t;
-                        threads.Add(new Thread(() => CustomerThinking(t)));
+                        threads.Add(th);
                         Console.WriteLine("Customer #" + (customersID + 1) + " has sat on the chair");
                     }
                 }
                 else if (waiting.Count < waitingChairs)
                 {
                     waiting.Add(t);
-                    threads.Add(new Thread(() => CustomerThinking(t)));
+                    threads.Add(th);
                     Console.WriteLine("Customer #" + (customersID + 1) + " is now waiting");
                 }
                 else
@@ -40,8 +54,29 @@
                     Console.WriteLine("Customer #" + (customersID + 1) + " has left the shop");
                     customersExited++;
                 }
+
                 customersID++;
-                Thread.Sleep(500);
+                th.Start();
+                Thread.Sleep(rand.Next(500,1500));
+            }
+            while (waiting.Count > 0 || chair != null)
+            {
+                Thread.Sleep(300);
+            }
+            Console.WriteLine("The End");
+            Console.Write("Press Any Key To Exit.");
+            Console.ReadKey(); 
+        }
+        static void BarberThinking()
+        {
+            while (customersID > customersWalkIn)
+            {
+                if (waiting.Count == 0 && chair == null)
+                {
+                    Console.WriteLine("Barber has fallen asleep!");
+                    BarberAwake = false;
+                }
+                Thread.Sleep(50);
             }
         }
         static void CustomerThinking(Customer c)
@@ -50,8 +85,7 @@
             {
                 if (c == chair)
                 {
-                    Thread.Sleep(1000);
-                    threads.Remove(Thread.CurrentThread);
+                    Thread.Sleep(rand.Next(200,2000));
                     Console.WriteLine("Customer #" + (c.ID + 1) + " has finished and has left the shop");
                     c.inShop = false;
                     chair = null;
@@ -62,12 +96,18 @@
                     {
                         lock (chairLock)
                         {
+                            if (BarberAwake == false)
+                            {
+                                Console.WriteLine("Customer #" + (customersID + 1) + " has woken the barber");
+                                BarberAwake = true;
+                            }
                             chair = c;
                             waiting.Remove(c);
                             Console.WriteLine("Customer #" + (c.ID + 1) + " has sat on the chair");
                         }
                     }
                 }
+                Thread.Sleep(50);
             }
             
             

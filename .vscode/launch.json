@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.0",
     "configurations": [
         {
@@ -20,6 +20,17 @@
             "program": "${workspaceFolder}/DiningPhilosophers/bin/Debug/net10.0/DiningPhilosophers.dll",
             "args": [],
             "cwd": "${workspaceFolder}/DiningPhilosophers",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "BarberShop",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build BarberShop",
+            "program": "${workspaceFolder}/BarberShop/bin/Debug/net10.0/BarberShop.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/BarberShop",
             "console": "externalTerminal",
             "stopAtEntry": false
         }

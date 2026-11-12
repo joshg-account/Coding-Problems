@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.0.0",
     "tasks": [
         {
@@ -13,6 +13,13 @@
             "command": "dotnet",
             "type": "process",
             "args": ["build", "${workspaceFolder}/DiningPhilosophers/DiningPhilosophers.csproj"],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build BarberShop",
+            "command": "dotnet",
+            "type": "process",
+            "args": ["build", "${workspaceFolder}/BarberShop/BarberShop.csproj"],
             "problemMatcher": "$msCompile"
         }
     ]

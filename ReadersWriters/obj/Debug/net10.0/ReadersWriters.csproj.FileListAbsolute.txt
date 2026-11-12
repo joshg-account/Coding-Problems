@@ -28,3 +28,5 @@ C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\D
 C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.pdb
 C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersWriters.genruntimeconfig.cache
 C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ref\ReadersWriters.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\bin\Debug\net10.0\ReadersWriters.runtimeconfig.dev.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\ReadersWriters\obj\Debug\net10.0\ReadersW.39B0C028.Up2Date

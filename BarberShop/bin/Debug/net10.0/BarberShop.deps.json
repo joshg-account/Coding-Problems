@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "CigaretteSmokers/1.0.0": {
+      "BarberShop/1.0.0": {
         "runtime": {
-          "CigaretteSmokers.dll": {}
+          "BarberShop.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "CigaretteSmokers/1.0.0": {
+    "BarberShop/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

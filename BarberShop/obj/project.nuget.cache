@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+DsyqmBNYjY=",
+  "dgSpecHash": "qhRPEcC0fAI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshg\\source\\repos\\Coding Problems\\Coding Problems\\CigaretteSmokers\\CigaretteSmokers.csproj",
+  "projectFilePath": "C:\\Users\\joshg\\source\\repos\\Coding Problems\\Coding Problems\\BarberShop\\BarberShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshg\\.nuget\\packages\\microsoft.netcore.app.ref\\10.0.15\\microsoft.netcore.app.ref.10.0.15.nupkg.sha512",
     "C:\\Users\\joshg\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\10.0.15\\microsoft.windowsdesktop.app.ref.10.0.15.nupkg.sha512",

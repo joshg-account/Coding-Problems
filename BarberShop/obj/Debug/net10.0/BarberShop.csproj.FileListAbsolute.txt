@@ -1,0 +1,17 @@
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\bin\Debug\net10.0\BarberShop.exe
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\bin\Debug\net10.0\BarberShop.deps.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\bin\Debug\net10.0\BarberShop.runtimeconfig.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\bin\Debug\net10.0\BarberShop.runtimeconfig.dev.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\bin\Debug\net10.0\BarberShop.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\bin\Debug\net10.0\BarberShop.pdb
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.AssemblyInfoInputs.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.AssemblyInfo.cs
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.csproj.CoreCompileInputs.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.sourcelink.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\refint\BarberShop.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.pdb
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.genruntimeconfig.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\ref\BarberShop.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\BarberShop\obj\Debug\net10.0\BarberShop.csproj.Up2Date
