@@ -21,6 +21,13 @@
             "type": "process",
             "args": ["build", "${workspaceFolder}/BarberShop/BarberShop.csproj"],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build CigaretteSmokers",
+            "command": "dotnet",
+            "type": "process",
+            "args": ["build", "${workspaceFolder}/CigaretteSmokers/CigaretteSmokers.csproj"],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

@@ -1,0 +1,17 @@
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\bin\Debug\net10.0\CigaretteSmokers.exe
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\bin\Debug\net10.0\CigaretteSmokers.deps.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\bin\Debug\net10.0\CigaretteSmokers.runtimeconfig.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\bin\Debug\net10.0\CigaretteSmokers.runtimeconfig.dev.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\bin\Debug\net10.0\CigaretteSmokers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\bin\Debug\net10.0\CigaretteSmokers.pdb
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\CigaretteSmokers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\CigaretteSmokers.AssemblyInfoInputs.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\CigaretteSmokers.AssemblyInfo.cs
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\CigaretteSmokers.csproj.CoreCompileInputs.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\CigaretteSmokers.sourcelink.json
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\CigaretteSmokers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\refint\CigaretteSmokers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\CigaretteSmokers.pdb
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\CigaretteSmokers.genruntimeconfig.cache
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\ref\CigaretteSmokers.dll
+C:\Users\joshg\source\repos\Coding Problems\Coding Problems\CigaretteSmokers\obj\Debug\net10.0\Cigarett.5B642D8A.Up2Date
